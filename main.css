@@ -138,13 +138,15 @@ code{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 100px;
+    top: 90px;
     background: #222;
-    height: 90vh;
+    height: 100vh;
 }
 .App{
     width: 10em;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    top: -100px;
+    position: relative;
 }
 .bars{
     display: flex;
@@ -152,6 +154,7 @@ code{
     align-items: center;
     position: relative;
     width: 400px;
+    top: -100px
 }
 .css3{
     display: flex;
@@ -159,7 +162,7 @@ code{
     align-items: center;
     position: relative;
     width: 400px;
-    top: 20px;
+    top: -80px;
 }
 .JS{
     display: flex;
@@ -167,7 +170,7 @@ code{
     align-items: center;
     position: relative;
     width: 400px;
-    top: 40px;
+    top: -60px;
 }
 .bars code,
 .css3 code,
@@ -210,6 +213,32 @@ var3{
     border-radius: 50px;
     width: 200px;
     left: 105px;
+}
+.contract{
+    width: 600px;
+    height: 40vh;
+    position: absolute;
+    background: #333;
+    top: 64%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000;
+}
+.contract img{
+    width: 600px;
+    height: 40vh;
+    border-radius: 10px;
+    filter: blur(3px);
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -160px;
+}
+strong{
+    font-family: sans-serif;
+    color: #333;
+    font-size: 30pt;
 }
 .arw{
     position: relative;
